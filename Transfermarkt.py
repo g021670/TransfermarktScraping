@@ -6,8 +6,8 @@ import pyodbc
 from pip._internal.utils import datetime
 
 conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=DESKTOP-E7UB9K9;'
-                      'Database=Managerspiel;'
+                      'Server=server_name;'
+                      'Database=database;'
                       'Trusted_Connection=yes;')
 
 cursor = conn.cursor()
