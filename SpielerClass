@@ -1,0 +1,4 @@
+class SpielerClass:
+    Rueckennummer = 0
+    Name = ''
+    Vorname = ''
